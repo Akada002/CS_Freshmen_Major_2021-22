@@ -1,0 +1,48 @@
+---
+title: "Report on CS Freshmen in 202110 to 202120"
+author: "Akhil Kadarla"
+date: "3/2/2022"
+output: rmarkdown::github_document
+---
+
+This report is to show how many students continued to be freshmen in fall of 2021 to spring of 2022 and predict how many did we loose as CS major. Data of the freshmen in fall of 2021 and spring of 2022 has been used for this project.
+
+**Data of freshmen in Fall of 2021(202110):**
+
+```{r}
+library("readxl")
+Data202110FR<-read_excel('Data202110FR.xlsx')
+Data202110FR
+```
+There are 170 Freshmen who joined as CS majors in the Fall of 2021(202110). 
+
+**Data of freshmen in Spring of 2021(202120):**
+
+```{r}
+library("readxl")
+Data202120FR<-read_excel('Data202120FR.xlsx')
+Data202120FR
+```
+There are 149 Freshmen who joined as CS majors in the spring of 2021(202120). 
+
+
+**Data of students who continued as freshmen from 202110 to 202120:**
+```{r}
+library("readxl")
+Freshmen2021_22<-read_excel('Freshmen2021-22.xlsx')
+Freshmen2021_22
+```
+**Data of students who joined as freshmen 202120:**
+
+```{r}
+library("readxl")
+Freshmen_202120<-read_excel('New_joinings.xlsx')
+Freshmen_202120
+```
+
+Above is the list of students who continued as freshmen to the next semester. 
+
+From the data , we can see that there were 170 students as freshmen in the fall of 2021 and 149 students students as freshmen in the spring of 2021. 30 joined as freshman in Spring of 2021. 119 continued to as freshmen from fall 2021 to spring 2021. There is a difference of 51 students when compared.
+This could be either the students have changed their major or left the university. 
+
+**Note**: A cross check has been done by comparing the data of freshmen in 202110 with the sophomores in 202120 to check if the students have moved to a higher class. The list of freshmen in 202110 and list of sophomores in 202120 are included in the repository for reference.
