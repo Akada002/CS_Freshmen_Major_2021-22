@@ -125,7 +125,7 @@ From the data , we can see that there were 170 students as freshmen in
 the fall of 2021 and 149 students students as freshmen in the spring of
 2021. 30 joined as freshman in Spring of 2021. 119 continued to as
 freshmen from fall 2021 to spring 2021. There is a difference of 51
-students when compared. This could be either the students have changed
+students when compared.This could be either the students have changed
 their major or left the university.
 
 **Note**: A cross check has been done by comparing the data of freshmen
